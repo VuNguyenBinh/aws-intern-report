@@ -15,21 +15,21 @@
     <title>Proposal :: Internship Report</title>
 
     
-    <link href="../css/nucleus.css?1762835054" rel="stylesheet">
-    <link href="../css/fontawesome-all.min.css?1762835054" rel="stylesheet">
-    <link href="../css/hybrid.css?1762835054" rel="stylesheet">
-    <link href="../css/featherlight.min.css?1762835054" rel="stylesheet">
-    <link href="../css/perfect-scrollbar.min.css?1762835054" rel="stylesheet">
-    <link href="../css/auto-complete.css?1762835054" rel="stylesheet">
-    <link href="../css/atom-one-dark-reasonable.css?1762835054" rel="stylesheet">
-    <link href="../css/theme.css?1762835054" rel="stylesheet">
-    <link href="../css/hugo-theme.css?1762835054" rel="stylesheet">
+    <link href="../css/nucleus.css?1762869439" rel="stylesheet">
+    <link href="../css/fontawesome-all.min.css?1762869439" rel="stylesheet">
+    <link href="../css/hybrid.css?1762869439" rel="stylesheet">
+    <link href="../css/featherlight.min.css?1762869439" rel="stylesheet">
+    <link href="../css/perfect-scrollbar.min.css?1762869439" rel="stylesheet">
+    <link href="../css/auto-complete.css?1762869439" rel="stylesheet">
+    <link href="../css/atom-one-dark-reasonable.css?1762869439" rel="stylesheet">
+    <link href="../css/theme.css?1762869439" rel="stylesheet">
+    <link href="../css/hugo-theme.css?1762869439" rel="stylesheet">
     
-    <link href="../css/theme-workshop.css?1762835054" rel="stylesheet">
+    <link href="../css/theme-workshop.css?1762869439" rel="stylesheet">
     
     
 
-    <script src="../js/jquery-3.3.1.min.js?1762835054"></script>
+    <script src="../js/jquery-3.3.1.min.js?1762869439"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -88,14 +88,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="../js/lunr.min.js?1762835054"></script>
-<script type="text/javascript" src="../js/auto-complete.js?1762835054"></script>
+<script type="text/javascript" src="../js/lunr.min.js?1762869439"></script>
+<script type="text/javascript" src="../js/auto-complete.js?1762869439"></script>
 <script type="text/javascript">
     
         var baseurl = "hhttps:\/\/github.com\/VuNguyenBinh\/aws-intern-report\/";
     
 </script>
-<script type="text/javascript" src="../js/search.js?1762835054"></script>
+<script type="text/javascript" src="../js/search.js?1762869439"></script>
  
   </div>
 
@@ -998,14 +998,36 @@
                     <div class="progress">
   <div class="wrapper"><nav id="TableOfContents">
   <ul>
-    <li><a href="#a-cicd-automation-solution-integrating-security-analysis-and-system-safety-monitoring">A CI/CD Automation Solution Integrating Security Analysis and System Safety Monitoring</a>
+    <li><a href="#team-devsecops-fcj--fpt-university--internship-program--aws-security-scan-project">[Team DevSecOps FCJ] – [FPT University / Internship Program] – [AWS Security Scan Project]</a>
       <ul>
-        <li><a href="#1-executive-summary">1. Executive Summary</a></li>
-        <li><a href="#2-problem-statement">2. Problem Statement</a></li>
-        <li><a href="#3-solution-architecture">3. Solution Architecture</a></li>
-        <li><a href="#4-expected-outcomes">4. Expected Outcomes</a></li>
+        <li><a href="#table-of-contents">TABLE OF CONTENTS</a></li>
+        <li><a href="#1-background-and-motivation">1. BACKGROUND AND MOTIVATION</a></li>
+        <li><a href="#11-executive-summary">1.1 EXECUTIVE SUMMARY</a></li>
+        <li><a href="#12-project-success-criteria">1.2 PROJECT SUCCESS CRITERIA</a></li>
+        <li><a href="#13-assumptions">1.3 ASSUMPTIONS</a></li>
+        <li><a href="#2-solution-architecture--architectural-diagram">2. SOLUTION ARCHITECTURE / ARCHITECTURAL DIAGRAM</a></li>
+        <li><a href="#21-technical-architecture-diagram">2.1 TECHNICAL ARCHITECTURE DIAGRAM</a></li>
       </ul>
     </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#22-technical-plan">2.2 TECHNICAL PLAN</a></li>
+        <li><a href="#23-project-plan">2.3 PROJECT PLAN</a></li>
+        <li><a href="#24-security-considerations">2.4 SECURITY CONSIDERATIONS</a></li>
+        <li><a href="#3-activities-and-deliverables">3. ACTIVITIES AND DELIVERABLES</a></li>
+        <li><a href="#31-activities-and-deliverables">3.1 ACTIVITIES AND DELIVERABLES</a></li>
+        <li><a href="#32-out-of-scope">3.2 OUT OF SCOPE</a></li>
+        <li><a href="#33-path-to-production">3.3 PATH TO PRODUCTION</a></li>
+        <li><a href="#4-expected-aws-cost-breakdown-by-services">4. EXPECTED AWS COST BREAKDOWN BY SERVICES</a></li>
+        <li><a href="#5-team">5. TEAM</a></li>
+        <li><a href="#6-resources--cost-estimates">6. RESOURCES &amp; COST ESTIMATES</a></li>
+        <li><a href="#7-acceptance">7. ACCEPTANCE</a></li>
+      </ul>
+    </li>
+    <li><a href="#if-no-response-is-received-within-the-acceptance-period-the-deliverable-is-deemed-accepted">If no response is received within the acceptance period, the deliverable is deemed accepted.</a></li>
   </ul>
 </nav></div>
 </div>
@@ -1030,45 +1052,280 @@
 
 
 
-	<h1 id="aws-security-scan-project">AWS Security Scan Project</h1>
-<h2 id="a-cicd-automation-solution-integrating-security-analysis-and-system-safety-monitoring">A CI/CD Automation Solution Integrating Security Analysis and System Safety Monitoring</h2>
-<h3 id="1-executive-summary">1. Executive Summary</h3>
-<p>The <strong>AWS Security Scan Project</strong> is designed to automate security inspection throughout the software development lifecycle by integrating AWS services such as <strong>CodePipeline</strong>, <strong>CodeBuild</strong>, <strong>CodeGuru Reviewer</strong>, and <strong>AWS Security Hub</strong>.<br>
-The project aims to assist DevOps teams or DevSecOps students in implementing a CI/CD pipeline capable of <strong>early vulnerability detection, automated alerts, and real-time security reporting</strong>.</p>
-<h3 id="2-problem-statement">2. Problem Statement</h3>
-<p><em>Current Challenges</em><br>
-In many software projects, the CI/CD process often focuses only on build and deployment while <strong>lacking automated security control</strong>. Vulnerabilities are usually discovered after deployment, resulting in wasted time and potential system risks.</p>
-<p><em>Proposed Solution</em><br>
-Integrate “Security Scan as Code” into an automated pipeline:</p>
-<ul>
-<li><strong>CodePipeline</strong> orchestrates the full build–scan–deploy workflow.</li>
-<li><strong>CodeBuild</strong> executes source code scans and performs security testing.</li>
-<li><strong>CodeGuru Reviewer</strong> conducts static code analysis to detect bugs and security issues.</li>
-<li><strong>AWS Security Hub</strong> and <strong>Amazon Detective</strong> centralize alerts and aggregate data from <strong>CloudWatch</strong>, <strong>GuardDuty</strong>, and <strong>CloudTrail</strong>, allowing administrators to identify potential system-wide threats.</li>
-</ul>
-<p>All code changes are automatically scanned, and any abnormal findings trigger notifications via <strong>Amazon SNS</strong>.</p>
-<h3 id="3-solution-architecture">3. Solution Architecture</h3>
-<p>The pipeline consists of <strong>five main stages</strong>: development, build, security scanning, deployment, and monitoring.</p>
-<p><em>AWS Services Used:</em></p>
-<ul>
-<li><strong>GitLab</strong>: Acts as the source repository and triggers the pipeline upon each new commit.</li>
-<li><strong>AWS CodePipeline</strong>: Automates the CI/CD workflow.</li>
-<li><strong>AWS CodeBuild</strong>: Builds the application and runs security testing tools (e.g., SonarQube, Trivy, Bandit).</li>
-<li><strong>AWS CodeGuru Reviewer</strong>: Performs AI-powered code reviews to identify issues and suggest improvements.</li>
-<li><strong>AWS Security Hub</strong>: Centralizes vulnerability findings and compliance checks.</li>
-<li><strong>Amazon Detective</strong>: Analyzes logs and detects suspicious activities.</li>
-<li><strong>Amazon CloudWatch</strong> and <strong>AWS GuardDuty</strong>: Provide continuous monitoring and threat detection.</li>
-<li><strong>Amazon SNS</strong>: Sends alerts when vulnerabilities or anomalies are detected.</li>
-</ul>
-<p>This architecture ensures continuous integration of security controls, automated analysis, and centralized incident visibility across all development stages.</p>
-<h3 id="4-expected-outcomes">4. Expected Outcomes</h3>
-<ul>
-<li><strong>Security-first CI/CD Pipeline</strong>: Embeds automated scanning and analysis into every commit.</li>
-<li><strong>Improved Efficiency</strong>: Reduces manual security testing workload.</li>
-<li><strong>Enhanced Visibility</strong>: Centralized dashboards and real-time alerts improve system awareness.</li>
-<li><strong>Practical Learning Resource</strong>: Serves as a DevSecOps study case for security automation using AWS services.</li>
-</ul>
-<hr>
+	<h1 id="aws-security-scan-project--project-plan">AWS Security Scan Project – Project Plan</h1>
+<h2 id="team-devsecops-fcj--fpt-university--internship-program--aws-security-scan-project">[Team DevSecOps FCJ] – [FPT University / Internship Program] – [AWS Security Scan Project]</h2>
+<p>Date: 2025-10-11</p>
+<h3 id="table-of-contents">TABLE OF CONTENTS</h3>
+<p>1.BACKGROUND AND MOTIVATION
+ 1.1 EXECUTIVE SUMMARY
+ 1.2 PROJECT SUCCESS CRITERIA
+ 1.3 ASSUMPTIONS</p>
+<p>2.SOLUTION ARCHITECTURE / ARCHITECTURAL DIAGRAM
+ 2.1 TECHNICAL ARCHITECTURE DIAGRAM
+ 2.2 TECHNICAL PLAN
+ 2.3 PROJECT PLAN
+ 2.4 SECURITY CONSIDERATIONS</p>
+<p>3.ACTIVITIES AND DELIVERABLES
+ 3.1 ACTIVITIES AND DELIVERABLES
+ 3.2 OUT OF SCOPE
+ 3.3 PATH TO PRODUCTION</p>
+<p>4.EXPECTED AWS COST BREAKDOWN BY SERVICES</p>
+<p>5.TEAM</p>
+<p>6.RESOURCES &amp; COST ESTIMATES</p>
+<p>7.ACCEPTANCE</p>
+<h3 id="1-background-and-motivation">1. BACKGROUND AND MOTIVATION</h3>
+<h3 id="11-executive-summary">1.1 EXECUTIVE SUMMARY</h3>
+<p>The AWS Security Scan Project aims to automate the security inspection process across the software development lifecycle by integrating AWS services such as CodePipeline, CodeBuild, CodeGuru Reviewer, and AWS Security Hub.
+This initiative enhances the security posture of continuous integration and deployment pipelines by embedding automated vulnerability scanning, AI-powered code analysis, and centralized incident monitoring.
+Use cases include:</p>
+<p>Continuous integration with built-in security validation.</p>
+<p>Automated alerts and compliance reporting.</p>
+<p>Real-time visibility into vulnerabilities and code quality.</p>
+<p>Partner services focus on designing, implementing, and optimizing a DevSecOps pipeline that ensures secure, compliant, and efficient software delivery.</p>
+<h3 id="12-project-success-criteria">1.2 PROJECT SUCCESS CRITERIA</h3>
+<p>≥95% of code commits pass automated security scans before deployment.</p>
+<p>Real-time alerts are sent within 2 minutes of anomaly detection.</p>
+<p>Security Hub compliance score ≥90%.</p>
+<p>Successful integration between CodePipeline, CodeBuild, and Security Hub with zero manual intervention.</p>
+<h3 id="13-assumptions">1.3 ASSUMPTIONS</h3>
+<p>All AWS accounts are pre-configured with IAM roles and permissions for CodePipeline and CodeBuild.</p>
+<p>GitLab repository access and webhooks are enabled.</p>
+<p>Security tools (e.g., Trivy, Bandit, SonarQube) are available in CodeBuild environment.</p>
+<p>The organization follows AWS Well-Architected and Security best practices.</p>
+<h3 id="2-solution-architecture--architectural-diagram">2. SOLUTION ARCHITECTURE / ARCHITECTURAL DIAGRAM</h3>
+<h3 id="21-technical-architecture-diagram">2.1 TECHNICAL ARCHITECTURE DIAGRAM</h3>
+<p>The proposed solution integrates multiple AWS services for CI/CD, automated security analysis, and monitoring.
+It includes components for source control (GitLab), build and test automation (CodeBuild), pipeline orchestration (CodePipeline), AI-based code review (CodeGuru Reviewer), and centralized alerting (Security Hub + SNS).</p>
+<p>(Insert Diagram: /images/2-Proposal/Security Scan project AWS.drawio.png)</p>
+<h1 id="tools-used">Tools used:</h1>
+<p>GitLab</p>
+<p>AWS CodePipeline</p>
+<p>AWS CodeBuild</p>
+<p>AWS CodeGuru Reviewer</p>
+<p>AWS Security Hub, GuardDuty, Detective</p>
+<p>SonarQube, Trivy, Bandit</p>
+<h3 id="22-technical-plan">2.2 TECHNICAL PLAN</h3>
+<p>The partner will develop buildspec scripts in YAML for CodeBuild to automate:</p>
+<p>Source code scanning (Trivy, Bandit)</p>
+<p>Static code analysis (CodeGuru Reviewer)</p>
+<p>Build packaging and deployment triggers</p>
+<p>All deployments will be version-controlled via GitLab CI triggers.
+Configuration files will follow Infrastructure as Code principles using AWS CloudFormation.</p>
+<h3 id="23-project-plan">2.3 PROJECT PLAN</h3>
+<p>The team will adopt Agile Scrum methodology over 4 sprints (2 weeks each).
+Stakeholders will participate in Sprint Reviews and Retrospectives.</p>
+<p>Roles and responsibilities:</p>
+<p>DevOps Engineer: CI/CD pipeline setup</p>
+<p>Security Engineer: Security integration and analysis</p>
+<p>Project Lead: Coordination, reporting, documentation</p>
+<p>Weekly sync-up meetings will be held via Slack and AWS Chime.</p>
+<h3 id="24-security-considerations">2.4 SECURITY CONSIDERATIONS</h3>
+<p>Access – IAM least privilege, MFA for admin accounts</p>
+<p>Infrastructure – Private subnets for build agents</p>
+<p>Data – S3 encryption (SSE-KMS), CodeBuild log encryption</p>
+<p>Detection – GuardDuty and Security Hub continuous monitoring</p>
+<p>Incident Management – SNS notifications and CloudWatch alarms for anomalies</p>
+<h3 id="3-activities-and-deliverables">3. ACTIVITIES AND DELIVERABLES</h3>
+<h3 id="31-activities-and-deliverables">3.1 ACTIVITIES AND DELIVERABLES</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Project Phase</th>
+          <th>Timeline</th>
+          <th>Activities</th>
+          <th>Deliverables/Milestones</th>
+          <th>Total Man-days</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Assessment</td>
+          <td>Week 1–2</td>
+          <td>Analyze existing CI/CD</td>
+          <td>Report &amp; Architecture Design</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>Setup base infrastructure</td>
+          <td>Week 3–4</td>
+          <td>Create CodePipeline &amp; CodeBuild</td>
+          <td>Pipeline Deployed</td>
+          <td>7</td>
+      </tr>
+      <tr>
+          <td>Integrate Security Tools</td>
+          <td>Week 5–6</td>
+          <td>Add SonarQube, Trivy, Bandit</td>
+          <td>Security Scan Active</td>
+          <td>6</td>
+      </tr>
+      <tr>
+          <td>Monitoring Setup</td>
+          <td>Week 7</td>
+          <td>Connect Security Hub, CloudWatch</td>
+          <td>Alert System Operational</td>
+          <td>4</td>
+      </tr>
+      <tr>
+          <td>Testing &amp; Go-Live</td>
+          <td>Week 8</td>
+          <td>Final testing, documentation</td>
+          <td>Go-Live Report</td>
+          <td>3</td>
+      </tr>
+      <tr>
+          <td>Handover</td>
+          <td>Week 9</td>
+          <td>Knowledge transfer</td>
+          <td>Final Project Handover</td>
+          <td>2</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="32-out-of-scope">3.2 OUT OF SCOPE</h3>
+<p>On-premises application security scanning</p>
+<p>Third-party compliance frameworks beyond AWS tools</p>
+<p>Non-AWS CI/CD environments</p>
+<h3 id="33-path-to-production">3.3 PATH TO PRODUCTION</h3>
+<p>The Proof-of-Concept focuses on AWS-native DevSecOps integration.
+For production deployment, additional steps such as multi-account security setup, network isolation, and automated patching will be required.</p>
+<h3 id="4-expected-aws-cost-breakdown-by-services">4. EXPECTED AWS COST BREAKDOWN BY SERVICES</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Service</th>
+          <th>Description</th>
+          <th>Estimated Monthly Cost (USD)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>CodePipeline</td>
+          <td>Orchestration</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>CodeBuild</td>
+          <td>Build + Scan</td>
+          <td>30</td>
+      </tr>
+      <tr>
+          <td>CodeGuru Reviewer</td>
+          <td>Code analysis</td>
+          <td>25</td>
+      </tr>
+      <tr>
+          <td>Security Hub</td>
+          <td>Aggregation + Alerts</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <td>CloudWatch</td>
+          <td>Logs + Metrics</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>S3</td>
+          <td>Artifact storage</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>SNS</td>
+          <td>Notifications</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td><strong>Total (approx.)</strong></td>
+          <td></td>
+          <td><strong>100 USD/month</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="5-team">5. TEAM</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Student ID</th>
+          <th>Email / Contact</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Lê Công Cảnh</td>
+          <td>SE183750</td>
+          <td><a href="mailto:canhlcse183750@fpt.edu.vn">canhlcse183750@fpt.edu.vn</a></td>
+      </tr>
+      <tr>
+          <td>Phùng Gia Đức</td>
+          <td>SE183187</td>
+          <td><a href="mailto:ducpgse183187@fpt.edu.vn">ducpgse183187@fpt.edu.vn</a></td>
+      </tr>
+      <tr>
+          <td>Vũ Nguyễn Bình</td>
+          <td>SE193185</td>
+          <td><a href="mailto:vunguyenbinh25@gmail.com">vunguyenbinh25@gmail.com</a></td>
+      </tr>
+      <tr>
+          <td>Lê Minh Dương</td>
+          <td>SE184079</td>
+          <td><a href="mailto:duonglmse184079@fpt.edu.vn">duonglmse184079@fpt.edu.vn</a></td>
+      </tr>
+      <tr>
+          <td>Nguyễn Phi Duy</td>
+          <td>SE180529</td>
+          <td><a href="mailto:duynpse180529@fpt.edu.vn">duynpse180529@fpt.edu.vn</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="6-resources--cost-estimates">6. RESOURCES &amp; COST ESTIMATES</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Resource</th>
+          <th>Responsibility</th>
+          <th>Rate (USD/hr)</th>
+          <th>Total Hours</th>
+          <th>Cost (USD)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Solution Architect</td>
+          <td>Design &amp; Review</td>
+          <td>60</td>
+          <td>40</td>
+          <td>2400</td>
+      </tr>
+      <tr>
+          <td>DevOps Engineer</td>
+          <td>Pipeline Implementation</td>
+          <td>45</td>
+          <td>60</td>
+          <td>2700</td>
+      </tr>
+      <tr>
+          <td>Security Engineer</td>
+          <td>Tool Integration</td>
+          <td>50</td>
+          <td>50</td>
+          <td>2500</td>
+      </tr>
+      <tr>
+          <td><strong>Total</strong></td>
+          <td></td>
+          <td></td>
+          <td>150</td>
+          <td><strong>7600</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="7-acceptance">7. ACCEPTANCE</h3>
+<p>Upon completion of each phase, the provider will submit deliverables to the customer with an Acceptance Form.
+The customer will review within 8 business days and provide either:</p>
+<p>Written acceptance confirmation, or</p>
+<p>Rejection notice with feedback.</p>
+<h2 id="if-no-response-is-received-within-the-acceptance-period-the-deliverable-is-deemed-accepted">If no response is received within the acceptance period, the deliverable is deemed accepted.</h2>
 
 
 
@@ -1785,19 +2042,19 @@ Integrate “Security Scan as Code” into an automated pipeline:</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../js/clipboard.min.js?1762835054"></script>
-    <script src="../js/perfect-scrollbar.min.js?1762835054"></script>
-    <script src="../js/perfect-scrollbar.jquery.min.js?1762835054"></script>
-    <script src="../js/jquery.sticky.js?1762835054"></script>
-    <script src="../js/featherlight.min.js?1762835054"></script>
-    <script src="../js/highlight.pack.js?1762835054"></script>
+    <script src="../js/clipboard.min.js?1762869439"></script>
+    <script src="../js/perfect-scrollbar.min.js?1762869439"></script>
+    <script src="../js/perfect-scrollbar.jquery.min.js?1762869439"></script>
+    <script src="../js/jquery.sticky.js?1762869439"></script>
+    <script src="../js/featherlight.min.js?1762869439"></script>
+    <script src="../js/highlight.pack.js?1762869439"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../js/modernizr.custom-3.6.0.js?1762835054"></script>
-    <script src="../js/learn.js?1762835054"></script>
-    <script src="../js/hugo-learn.js?1762835054"></script>
+    <script src="../js/modernizr.custom-3.6.0.js?1762869439"></script>
+    <script src="../js/learn.js?1762869439"></script>
+    <script src="../js/hugo-learn.js?1762869439"></script>
 
-    <link href="../mermaid/mermaid.css?1762835054" rel="stylesheet" />
-    <script src="../mermaid/mermaid.js?1762835054"></script>
+    <link href="../mermaid/mermaid.css?1762869439" rel="stylesheet" />
+    <script src="../mermaid/mermaid.js?1762869439"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
