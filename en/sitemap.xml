@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/</loc>
     <lastmod>2025-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,10 +12,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.1-blog1/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.1-blog1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -24,10 +24,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.1-blog1/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.1-blog1/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.3-blog3/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.3-blog3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -36,10 +36,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.3-blog3/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.3-blog3/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -48,10 +48,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/5.3.1-create-gwe/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.1-event1/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.1-event1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -60,10 +60,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.1-event1/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.1-event1/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.2-event2/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.2-event2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -72,10 +72,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.2-event2/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.2-event2/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.3-event3/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.3-event3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -84,10 +84,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/4.3-event3/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/4.3-event3/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.1-workshop-overview/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.1-workshop-overview/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -96,10 +96,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.1-workshop-overview/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.1-workshop-overview/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.1-prepare/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.1-prepare/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -108,10 +108,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.1-prepare/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.1-week1/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.1-week1/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -120,10 +120,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.1-week1/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.1-week1/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.2-week2/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.2-week2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -132,10 +132,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.2-week2/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.2-week2/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.3-week3/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.3-week3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -144,10 +144,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.3-week3/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.3-week3/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.4-week4/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.4-week4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -156,10 +156,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.4-week4/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.4-week4/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.5-week5/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.5-week5/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -168,10 +168,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.5-week5/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.5-week5/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.6-week6/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.6-week6/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -180,10 +180,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.6-week6/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.6-week6/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.7-week7/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.7-week7/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -192,10 +192,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.7-week7/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.7-week7/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.8-week8/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.8-week8/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -204,10 +204,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.8-week8/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.8-week8/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.9-week9/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.9-week9/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -216,10 +216,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.9-week9/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.9-week9/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -228,10 +228,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/2-proposal/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/2-proposal/</loc>
     <lastmod>2025-10-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -241,10 +241,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/2-proposal/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/2-proposal/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.2-blog2/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.2-blog2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -253,10 +253,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/3.2-blog2/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/3.2-blog2/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -265,10 +265,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.2-create-interface-enpoint/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.2-prerequiste/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.2-prerequiste/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -277,10 +277,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.2-prerequiste/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.2-prerequiste/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -289,10 +289,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/5.3.2-test-gwe/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.10-week10/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.10-week10/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -301,10 +301,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.10-week10/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.10-week10/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.11-week11/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.11-week11/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -313,10 +313,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.11-week11/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.11-week11/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.12-week12/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.12-week12/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -325,10 +325,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/1-worklog/1.12-week12/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/1-worklog/1.12-week12/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -337,10 +337,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.3-s3-vpc/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.3-s3-vpc/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -349,10 +349,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.3-test-endpoint/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -361,10 +361,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/3-blogstranslated/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/3-blogstranslated/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -373,10 +373,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -385,10 +385,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/4-eventparticipated/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/4-eventparticipated/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -397,10 +397,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.4-s3-onprem/5.4.4-dns-simulation/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.5-policy/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.5-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -409,10 +409,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.5-policy/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.5-policy/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -421,10 +421,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.6-cleanup/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.6-cleanup/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -433,10 +433,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/5-workshop/5.6-cleanup/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/5-workshop/5.6-cleanup/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/6-self-evaluation/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/6-self-evaluation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -445,10 +445,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/6-self-evaluation/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/6-self-evaluation/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/7-feedback/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/7-feedback/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -457,10 +457,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/7-feedback/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/7-feedback/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/categories/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -469,10 +469,10 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/categories/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/categories/"
                 />
   </url><url>
-    <loc>http://github.com/VuNguyenBinh/aws-intern-report/tags/</loc>
+    <loc>http://github.com/VuNguyenBinh/aws-intern-report/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
@@ -481,7 +481,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://github.com/VuNguyenBinh/aws-intern-report/tags/"
+                href="http://github.com/VuNguyenBinh/aws-intern-report/en/tags/"
                 />
   </url>
 </urlset>
